@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61C1CAE05678AB0D540DDFC6 /* Pods_KeyChainTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3E4179123EE5EFB25BBEF /* Pods_KeyChainTestTask.framework */; };
 		D8827CD4271585470046BEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CD3271585470046BEC3 /* AppDelegate.swift */; };
 		D8827CD6271585470046BEC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CD5271585470046BEC3 /* SceneDelegate.swift */; };
-		D8827CD8271585470046BEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CD7271585470046BEC3 /* ViewController.swift */; };
-		D8827CDB271585470046BEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8827CD9271585470046BEC3 /* Main.storyboard */; };
+		D8827CD8271585470046BEC3 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CD7271585470046BEC3 /* AuthViewController.swift */; };
 		D8827CDD271585480046BEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8827CDC271585480046BEC3 /* Assets.xcassets */; };
 		D8827CE0271585480046BEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8827CDE271585480046BEC3 /* LaunchScreen.storyboard */; };
+		D8827CED27158D0C0046BEC3 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CEC27158D0C0046BEC3 /* UIStackView + Extensions.swift */; };
+		D8827CEF27158F040046BEC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CEE27158F040046BEC3 /* MainViewController.swift */; };
+		D8827CF227158FA20046BEC3 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CF127158FA20046BEC3 /* KeyChainManager.swift */; };
+		D8827CF5271599D90046BEC3 /* AlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8827CF4271599D90046BEC3 /* AlertError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20FB93778AF20289F29B5AEC /* Pods-KeyChainTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChainTestTask.debug.xcconfig"; path = "Target Support Files/Pods-KeyChainTestTask/Pods-KeyChainTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D3E4179123EE5EFB25BBEF /* Pods_KeyChainTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyChainTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8827CD0271585470046BEC3 /* KeyChainTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8827CD3271585470046BEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8827CD5271585470046BEC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8827CD7271585470046BEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8827CDA271585470046BEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8827CD7271585470046BEC3 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		D8827CDC271585480046BEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8827CDF271585480046BEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8827CE1271585480046BEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8827CEC27158D0C0046BEC3 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		D8827CEE27158F040046BEC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D8827CF127158FA20046BEC3 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		D8827CF4271599D90046BEC3 /* AlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertError.swift; sourceTree = "<group>"; };
+		E392985A3A216AC35A0EE865 /* Pods-KeyChainTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChainTestTask.release.xcconfig"; path = "Target Support Files/Pods-KeyChainTestTask/Pods-KeyChainTestTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C1CAE05678AB0D540DDFC6 /* Pods_KeyChainTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BF4385B16B10008312C83FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3E4179123EE5EFB25BBEF /* Pods_KeyChainTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8827CC7271585470046BEC3 = {
 			isa = PBXGroup;
 			children = (
 				D8827CD2271585470046BEC3 /* KeyChainTestTask */,
 				D8827CD1271585470046BEC3 /* Products */,
+				F8E20FFCE7023B6D9C555633 /* Pods */,
+				5BF4385B16B10008312C83FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,83 @@
 		D8827CD2271585470046BEC3 /* KeyChainTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				D8827CE7271585620046BEC3 /* Applications */,
+				D8827CE82715856E0046BEC3 /* Controllers */,
+				D8827CF3271599C40046BEC3 /* Models */,
+				D8827CF027158F900046BEC3 /* Services */,
+				D8827CEA27158CC00046BEC3 /* Extensions */,
+				D8827CE92715857C0046BEC3 /* Resources */,
+			);
+			path = KeyChainTestTask;
+			sourceTree = "<group>";
+		};
+		D8827CE7271585620046BEC3 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
 				D8827CD3271585470046BEC3 /* AppDelegate.swift */,
 				D8827CD5271585470046BEC3 /* SceneDelegate.swift */,
-				D8827CD7271585470046BEC3 /* ViewController.swift */,
-				D8827CD9271585470046BEC3 /* Main.storyboard */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		D8827CE82715856E0046BEC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8827CD7271585470046BEC3 /* AuthViewController.swift */,
+				D8827CEE27158F040046BEC3 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8827CE92715857C0046BEC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D8827CDC271585480046BEC3 /* Assets.xcassets */,
 				D8827CDE271585480046BEC3 /* LaunchScreen.storyboard */,
 				D8827CE1271585480046BEC3 /* Info.plist */,
 			);
-			path = KeyChainTestTask;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8827CEA27158CC00046BEC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8827CEB27158CEB0046BEC3 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8827CEB27158CEB0046BEC3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D8827CEC27158D0C0046BEC3 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D8827CF027158F900046BEC3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D8827CF127158FA20046BEC3 /* KeyChainManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D8827CF3271599C40046BEC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8827CF4271599D90046BEC3 /* AlertError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8E20FFCE7023B6D9C555633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FB93778AF20289F29B5AEC /* Pods-KeyChainTestTask.debug.xcconfig */,
+				E392985A3A216AC35A0EE865 /* Pods-KeyChainTestTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8827CE4271585480046BEC3 /* Build configuration list for PBXNativeTarget "KeyChainTestTask" */;
 			buildPhases = (
+				7113C284976C7EA4626D4661 /* [CP] Check Pods Manifest.lock */,
 				D8827CCC271585470046BEC3 /* Sources */,
 				D8827CCD271585470046BEC3 /* Frameworks */,
 				D8827CCE271585470046BEC3 /* Resources */,
+				44FED2A41CD1191F98520115 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +217,71 @@
 			files = (
 				D8827CE0271585480046BEC3 /* LaunchScreen.storyboard in Resources */,
 				D8827CDD271585480046BEC3 /* Assets.xcassets in Resources */,
-				D8827CDB271585470046BEC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44FED2A41CD1191F98520115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyChainTestTask/Pods-KeyChainTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyChainTestTask/Pods-KeyChainTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyChainTestTask/Pods-KeyChainTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7113C284976C7EA4626D4661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyChainTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8827CCC271585470046BEC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8827CD8271585470046BEC3 /* ViewController.swift in Sources */,
+				D8827CD8271585470046BEC3 /* AuthViewController.swift in Sources */,
+				D8827CF227158FA20046BEC3 /* KeyChainManager.swift in Sources */,
+				D8827CF5271599D90046BEC3 /* AlertError.swift in Sources */,
 				D8827CD4271585470046BEC3 /* AppDelegate.swift in Sources */,
 				D8827CD6271585470046BEC3 /* SceneDelegate.swift in Sources */,
+				D8827CED27158D0C0046BEC3 /* UIStackView + Extensions.swift in Sources */,
+				D8827CEF27158F040046BEC3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D8827CD9271585470046BEC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8827CDA271585470046BEC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8827CDE271585480046BEC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +411,13 @@
 		};
 		D8827CE5271585480046BEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FB93778AF20289F29B5AEC /* Pods-KeyChainTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = KeyChainTestTask/Info.plist;
+				INFOPLIST_FILE = KeyChainTestTask/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +431,13 @@
 		};
 		D8827CE6271585480046BEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E392985A3A216AC35A0EE865 /* Pods-KeyChainTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = KeyChainTestTask/Info.plist;
+				INFOPLIST_FILE = KeyChainTestTask/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
